@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    
+
+    
+}
+
+.banner{
+    color: whitesmoke;
+    font-size: 2em;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(pexels-victor-freitas-841131.jpg) ;
+    background-size: cover;
+    
+    /*background: linear-gradient(#202020,#333232,#636262,#) ;*/
+
+
+}
+.banner h2{
+    font-size: 2em;
+    color: #ffffff;
+    font-weight:500;
+    line-height: 1.5em;
+
+}
+.banner h2 span{
+    font-size: 1.5em;
+    font-size: 700;
+    color: #70e000 ;
+
+}
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+.banner img{
+    width: 700px;
+    height: 500px;
+    border: #70e000 solid;
+    border-radius: 5%;
+}
+
+header{
+    color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 100px;
+    display: flex;
+    background: linear-gradient(45deg,#202020,#636262);
+   
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    color: whitesmoke;
+    text-decoration: #70e000 underline ;
+    font-size: 1.2em;
+
+
+}
+header ul{
+    position: relative;
+    display: flex;
+
+}
+header ul li{
+    position: relative;
+    list-style: none;
+
+}
+.banner .btn{
+    display: inline-block;
+    background: #70e000;
+    color: #202020;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+   
+}
+.trainer img{
+    width: 700px;
+    height: 400px;
+}
+.about h2{
+    align-items: center;
+}
+
